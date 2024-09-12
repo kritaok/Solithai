@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Solithai</title>
+    <script type="module" src="js/klondike.js" ></script>
+    <link rel="stylesheet" href="css/common.css"></link>
+    <link rel="stylesheet" href="css/cards.css"></link>
+    <link rel="stylesheet" href="css/klondike.css"></link>
+</head>
+
+<body>
+    <h1>Solitaire but for Thai nerd 🤓</h1>
+    <marquee><h4>เรียงคำบาลี-สันสกฤตสลับกับคำสมาส-สนธิและเรียงการ์ดตามลำดับตัวเลข กฎเหมือน Solitaire น้ะจ้ะ แต่ไม่มีการด์สีให้ 😈😈😈</h4></marquee>
+
+    <!-- TODO: write more rules -->
+
+    <div id="game" class="game-area"></div>
+
+    <div class="setting-box">
+        <div class="setting-inputs">
+            <label for="pick-input">จำนวณการ์ดที่สามารณหยิบจากกองได้:</label>
+            <input type="number" id="pick-input" min="1" max="24" value="3" required />
+        </div>
+        <button id="new-game-button" class="new-game-button">เริ่มเกมใหม่</button>
+    </div>
+    <div class="member">
+        <h1>สมาชิกกลุ่ม:</h1>
+        <h4>ด.ช.กฤตานน ตราชูกุล ม.2/9 เลขที่ 2</h4>
+        <h4>ด.ช.ปุญญพัฒน์ โพธิสาร ม.2/9 เลขที่ 18</h4>
+    </div>
+
+   
+</body>
+
+</html>
